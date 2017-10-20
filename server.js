@@ -9,7 +9,7 @@ var image = new art.Image({
 });
 
 // Render the text
-art.font('HI WORLD', '3-d', function(rendered){
+art.font('Hi World','epic', function(rendered){
   console.log(rendered);
   // Display the ascii image
   image.write(function(err, rendered){
